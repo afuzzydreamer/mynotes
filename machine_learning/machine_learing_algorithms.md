@@ -19,7 +19,7 @@ LinearRegression fits a linear model with coefficients w = (w_1, ..., w_p) to mi
 ### On PySpark
 
     from pyspark.ml.regression import LinearRegression
-    from pyspark.ml.regression import LinearRegression
+    from org.apache.spark.ml.linalg import Vector
 
     data = [
             [Vectors.dense([2, 4, 1]), 6],  
